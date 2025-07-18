@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soundarya Mattikatti</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background: #000;
+      color: #fff;
+    }
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 80px 20px;
+    }
+    .card {
+      width: 720px;
+      max-width: 95%;
+      background: linear-gradient(to bottom right, #8a2c60, #2c2c45);
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    }
+    .top {
+      padding: 48px 32px 24px;
+      text-align: center;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #fff;
+      margin-bottom: 20px;
+    }
+    .name {
+      font-size: 2em;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+    .tagline {
+      font-size: 1em;
+      color: #ddd;
+    }
+    .bottom {
+      background: #141423;
+      padding: 40px 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .button {
+      display: flex;
+      align-items: center;
+      background: #22223a;
+      padding: 18px 20px;
+      border-radius: 16px;
+      text-decoration: none;
+      color: #fff;
+      transition: transform 0.2s ease, background 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .button:hover {
+      transform: scale(1.02);
+      background: #2d2d48;
+    }
+    .icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: radial-gradient(circle at top left, #a770ef, #5f4b8b);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px;
+      font-size: 1.6em;
+    }
+    .button-text strong {
+      font-size: 1.1em;
+    }
+    .footer {
+      padding: 32px;
+      text-align: center;
+      background: linear-gradient(to right, #833471, #2c3e50);
+    }
+    .email-pill {
+      display: inline-block;
+      padding: 12px 32px;
+      border-radius: 40px;
+      border: 1.5px solid rgba(255, 255, 255, 0.3);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1em;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    .email-pill:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="card">
+      <div class="top">
+        <img src="profile_photo_square.jpg" alt="Soundarya Mattikatti" class="avatar" />
+        <div class="name">Soundarya Mattikatti</div>
+        <div class="tagline">Data Analyst | Ex-Metyis | MSc Business Analytics @ DBS</div>
+      </div>
+      <div class="bottom">
+        <a class="button" href="soundarya_resume.pdf" target="_blank">
+          <div class="icon"><i class="fas fa-file-alt"></i></div>
+          <div class="button-text">
+            <strong>Resume</strong><br />
+            <small>View and download my resume.</small>
+          </div>
+        </a>
+        <a class="button" href="https://linkedin.com/in/soundaryasm" target="_blank">
+          <div class="icon"><i class="fab fa-linkedin-in"></i></div>
+          <div class="button-text">
+            <strong>LinkedIn</strong><br />
+            <small>Connect with me on LinkedIn.</small>
+          </div>
+        </a>
+        <a class="button" href="https://github.com/soundaryasm" target="_blank">
+          <div class="icon"><i class="fab fa-github"></i></div>
+          <div class="button-text">
+            <strong>GitHub</strong><br />
+            <small>View my projects on GitHub.</small>
+          </div>
+        </a>
+      </div>
+      <div class="footer">
+        <a href="mailto:soundarya.mattikatti@gmail.com" class="email-pill">
+          <i class="fas fa-envelope"></i> &nbsp;Email
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
